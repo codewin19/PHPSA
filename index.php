@@ -27,6 +27,7 @@
 
 <body>
     <!-- <h1>This is home page</h1> -->
+    
     <form action="process.php" method="get">
     <div>
         <input type="number" name="fname" placeholder="First Number">
