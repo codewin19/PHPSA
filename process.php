@@ -1,7 +1,7 @@
 <?php
 
-    $fname = $_GET['fname'];
-    $sname = $_GET['sname'];
+    $fname = $_POST['fname'];
+    $sname = $_POST['sname'];
 
     $result = $fname + $sname;
 
