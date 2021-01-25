@@ -1,7 +1,10 @@
+<h1>
 <?php
 
-    $fname = $_POST['fname'];
-    $sname = $_POST['sname'];
+    // echo "<pre>",var_dump($_REQUEST),"</pre>";
+
+    $fname = $_REQUEST['fname'];
+    $sname = $_REQUEST['sname'];
 
     $result = $fname + $sname;
 
@@ -10,3 +13,4 @@
 
 
 ?>
+</h1>
