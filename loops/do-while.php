@@ -15,6 +15,6 @@ do{
     echo "<p>{$counter}</p>";
 
     $counter++;
-}while($counter<=0);
+}while($counter<=10);
 
 
